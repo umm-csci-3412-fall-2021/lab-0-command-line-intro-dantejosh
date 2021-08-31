@@ -1,1 +1,3 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
+
+tar -zxf NthPrime.tgz
