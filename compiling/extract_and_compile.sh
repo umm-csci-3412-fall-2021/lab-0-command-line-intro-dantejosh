@@ -13,4 +13,4 @@ cd NthPrime
 gcc  main.c nth_prime.c -o NthPrime
 
 #Call the  newly created executable with the INT argument that was passed in through the script argument
-./NthPrime $INT
+./NthPrime "$INT"
