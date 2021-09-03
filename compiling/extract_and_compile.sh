@@ -6,8 +6,8 @@ INT=$1
 
 tar -zxf NthPrime.tgz
 
-# Go into the NthPrime directory created by the tar command
-cd NthPrime
+# Go into the NthPrime directory created by the tar command or exit if the cd fails
+cd NthPrime || exit
 
 # Compile and combine the c files in the NthPrime directory to form the executable name NthPrime
 gcc  main.c nth_prime.c -o NthPrime
